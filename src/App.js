@@ -6,6 +6,7 @@ function App() {
   return (
     <Router>
       <Route exact path={"/"} component={Home}></Route>
+      <Route exact path={"/about"} component={About}></Route>
     </Router>
   );
 }
